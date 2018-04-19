@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EA7F08F6207AC0B2002934D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7F08F5207AC0B2002934D2 /* main.cpp */; };
+		EA7F08FE207AC0BB002934D2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7F08FD207AC0BB002934D2 /* OpenGL.framework */; };
+		EA7F0900207AC0C4002934D2 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7F08FF207AC0C4002934D2 /* libglfw.3.2.dylib */; };
+		EA7F091C207AC11C002934D2 /* objectReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7F0906207AC11C002934D2 /* objectReader.cpp */; };
+		EA7F091D207AC11C002934D2 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7F090E207AC11C002934D2 /* Camera.cpp */; };
+		EA7F091E207AC11C002934D2 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7F0912207AC11C002934D2 /* texture.cpp */; };
+		EA7F091F207AC11C002934D2 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = EA7F091B207AC11C002934D2 /* glad.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA069F78207FEC9400B3ECA4 /* stars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stars.jpg; sourceTree = "<group>"; };
+		EA069F79207FEFB800B3ECA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA069F7C20803B6C00B3ECA4 /* README.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = README.pdf; sourceTree = "<group>"; };
 		EA7F08F2207AC0B2002934D2 /* graphics_assig_5_06 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graphics_assig_5_06; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7F08F5207AC0B2002934D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EA7F08FD207AC0BB002934D2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EA7F08FF207AC0C4002934D2 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		EA7F0903207AC11C002934D2 /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
+		EA7F0904207AC11C002934D2 /* sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpg; sourceTree = "<group>"; };
+		EA7F0906207AC11C002934D2 /* objectReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = objectReader.cpp; sourceTree = "<group>"; };
+		EA7F0907207AC11C002934D2 /* objectReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objectReader.h; sourceTree = "<group>"; };
+		EA7F0908207AC11C002934D2 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		EA7F090A207AC11C002934D2 /* stb_howto.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stb_howto.txt; sourceTree = "<group>"; };
+		EA7F090B207AC11C002934D2 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		EA7F090C207AC11C002934D2 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		EA7F090D207AC11C002934D2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA7F090E207AC11C002934D2 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		EA7F0910207AC11C002934D2 /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		EA7F0911207AC11C002934D2 /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		EA7F0912207AC11C002934D2 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		EA7F0913207AC11C002934D2 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		EA7F0917207AC11C002934D2 /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
+		EA7F0919207AC11C002934D2 /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
+		EA7F091B207AC11C002934D2 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		EA7F0921207AC6E3002934D2 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		EA855188207D3EA10064117F /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7F0900207AC0C4002934D2 /* libglfw.3.2.dylib in Frameworks */,
+				EA7F08FE207AC0BB002934D2 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +73,11 @@
 		EA7F08E9207AC0B2002934D2 = {
 			isa = PBXGroup;
 			children = (
+				EA069F7C20803B6C00B3ECA4 /* README.pdf */,
+				EA069F79207FEFB800B3ECA4 /* README.md */,
 				EA7F08F4207AC0B2002934D2 /* graphics_assig_5_06 */,
 				EA7F08F3207AC0B2002934D2 /* Products */,
+				EA7F08FC207AC0BB002934D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +92,110 @@
 		EA7F08F4207AC0B2002934D2 /* graphics_assig_5_06 */ = {
 			isa = PBXGroup;
 			children = (
+				EA7F0921207AC6E3002934D2 /* sphere.obj */,
+				EA7F090E207AC11C002934D2 /* Camera.cpp */,
+				EA7F0908207AC11C002934D2 /* Camera.h */,
+				EA7F0901207AC11C002934D2 /* celestialBodyTextures */,
+				EA7F0914207AC11C002934D2 /* glad */,
+				EA7F0905207AC11C002934D2 /* objReader */,
+				EA7F090F207AC11C002934D2 /* shaders */,
+				EA7F0909207AC11C002934D2 /* stb */,
+				EA7F0912207AC11C002934D2 /* texture.cpp */,
+				EA7F0913207AC11C002934D2 /* texture.h */,
 				EA7F08F5207AC0B2002934D2 /* main.cpp */,
 			);
 			path = graphics_assig_5_06;
+			sourceTree = "<group>";
+		};
+		EA7F08FC207AC0BB002934D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F08FF207AC0C4002934D2 /* libglfw.3.2.dylib */,
+				EA7F08FD207AC0BB002934D2 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7F0901207AC11C002934D2 /* celestialBodyTextures */ = {
+			isa = PBXGroup;
+			children = (
+				EA069F78207FEC9400B3ECA4 /* stars.jpg */,
+				EA855188207D3EA10064117F /* earth.jpg */,
+				EA7F0903207AC11C002934D2 /* moon.jpg */,
+				EA7F0904207AC11C002934D2 /* sun.jpg */,
+			);
+			path = celestialBodyTextures;
+			sourceTree = "<group>";
+		};
+		EA7F0905207AC11C002934D2 /* objReader */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F0906207AC11C002934D2 /* objectReader.cpp */,
+				EA7F0907207AC11C002934D2 /* objectReader.h */,
+			);
+			path = objReader;
+			sourceTree = "<group>";
+		};
+		EA7F0909207AC11C002934D2 /* stb */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F090A207AC11C002934D2 /* stb_howto.txt */,
+				EA7F090B207AC11C002934D2 /* stb_image_write.h */,
+				EA7F090C207AC11C002934D2 /* stb_image.h */,
+				EA7F090D207AC11C002934D2 /* README.md */,
+			);
+			path = stb;
+			sourceTree = "<group>";
+		};
+		EA7F090F207AC11C002934D2 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F0910207AC11C002934D2 /* fragment.glsl */,
+				EA7F0911207AC11C002934D2 /* vertex.glsl */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		EA7F0914207AC11C002934D2 /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F0915207AC11C002934D2 /* include */,
+				EA7F091A207AC11C002934D2 /* src */,
+			);
+			path = glad;
+			sourceTree = "<group>";
+		};
+		EA7F0915207AC11C002934D2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F0916207AC11C002934D2 /* KHR */,
+				EA7F0918207AC11C002934D2 /* glad */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EA7F0916207AC11C002934D2 /* KHR */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F0917207AC11C002934D2 /* khrplatform.h */,
+			);
+			path = KHR;
+			sourceTree = "<group>";
+		};
+		EA7F0918207AC11C002934D2 /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F0919207AC11C002934D2 /* glad.h */,
+			);
+			path = glad;
+			sourceTree = "<group>";
+		};
+		EA7F091A207AC11C002934D2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EA7F091B207AC11C002934D2 /* glad.c */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA7F091F207AC11C002934D2 /* glad.c in Sources */,
 				EA7F08F6207AC0B2002934D2 /* main.cpp in Sources */,
+				EA7F091E207AC11C002934D2 /* texture.cpp in Sources */,
+				EA7F091D207AC11C002934D2 /* Camera.cpp in Sources */,
+				EA7F091C207AC11C002934D2 /* objectReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +386,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
